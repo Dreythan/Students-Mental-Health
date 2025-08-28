@@ -1,5 +1,0 @@
-SELECT stay, AVG(todep) AS avg_depression
-FROM students
-WHERE inter_dom = 'Inter'
-GROUP BY stay
-ORDER BY stay;
